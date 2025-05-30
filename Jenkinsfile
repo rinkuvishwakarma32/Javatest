@@ -25,7 +25,7 @@ pipeline {
              stage('Rinku') {
             steps {
             
-                sh echo "Vishwakarma"
+                sh 'echo Vishwakarma'
             }
         }
 
