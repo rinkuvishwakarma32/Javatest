@@ -18,21 +18,21 @@ pipeline {
              stage('Suprirya') {
             steps {
             
-                sh 'java Helloworld.java'
+                sh  'echo Rinku'
             }
         }
 
              stage('Rinku') {
             steps {
             
-                sh 'java Helloworld.java'
+                sh echo "Vishwakarma"
             }
         }
 
              stage('Aakansha') {
             steps {
             
-                sh 'java Helloworld.java'
+                sh 'echo bhabhiji'
             }
         }
 
